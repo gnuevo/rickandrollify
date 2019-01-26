@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "RickandRollify",
+  "version": "0.1",
+
+  "description": "Redirecciona todos los enlaces a rick and roll.",
+
+  "icons": {
+    "48": "icons/iconfinder_check-circle-outline-blank_326565.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+      "default_icon": "icons/iconfinder_check-circle-outline-blank_326565.png"
+    },
+
+  "background": {
+      "scripts": ["background.js"]
+    }
+}
